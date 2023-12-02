@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 92, 72);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red;*/
+}
+
+#part2 {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(51, 136, 210);
+    background-image: url(https://images.unsplash.com/photo-1682685797795-5640f369a70a?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(185, 148, 105, 0.093)
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: green;*/
+}
+
+#text-div {
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    /* background-color: red;*/
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+#text-div>h1 {
+    font-size: 85px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 78px;
+    color: #ffffffe3;
+    text-transform: uppercase;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    transform: translate(0, -60%);
+    background-image: url(https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#overlay1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(121, 94, 66, 0.071);
+}
+
+#text-vertical {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -46%;
+    top: 3%;
+    /* z-index: 5;*/
+    transform-origin: 0% 0%;
+    /*width: 100%;*/
+    /*background-color: red;*/
+
+}
+
+#text-vertical>h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #ffffff8c;
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 7.5%;
+    top: 5%;
+    /*background-color: red;*/
+}
+
+#nav img{
+    height: 80px;
+}
+
+#nav h5{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffffc5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
